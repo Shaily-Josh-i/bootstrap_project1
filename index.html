@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+        .carousel-item img {
+            height: 600px;
+        }
+    </style>
+
+    <title>Project 5</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">ThapaTechnical</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Services
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Web Development</a>
+                            <a class="dropdown-item" href="#">App Development</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Graphic Design</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Live Lecture</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/img5.jpg" alt="Los Angeles" width="100%" class="img-fluid">
+                    <div class="carousel-caption mx-auto">
+                        <h3>Los Angeles</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/img4.jpg" alt="Chicago" width="100%" class="img-fluid">
+                    <div class="carousel-caption mx-auto">
+                        <h3>Chicago</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/img2.jpg" alt="New York" width="100%" class="img-fluid">
+                    <div class="carousel-caption mx-auto">
+                        <h3>New York</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+        </div>
+    </header>
+
+    <section>
+        <div class="container-fluid">
+            <h1 class="text-center text-capitalize pt-5 pb-5">
+                About us
+                <hr class="mx-auto w-25">
+            </h1>
+
+            <div class="row mb-5">
+                <div class="col-lg-6 col-md-6 col-12 mb-4">
+                    <img src="images/img3.jpg" alt="" width="100%" height="100%" class="img-fluid">
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 mb-4">
+                    <h1>Who am I ?</h1>
+                    <hr>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, beatae nostrum doloribus,
+                        atque ut autem exercitationem facilis ea porro ad labore necessitatibus cum, ab iusto eius
+                        voluptatibus vero repellat! Ratione nostrum impedit quae neque omnis! Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Aliquam doloribus debitis quo ullam fugiat ex reiciendis
+                        consectetur sapiente ipsum sint nobis inventore ducimus quod, quia nihil laborum. Dolorem nihil
+                        quam id deserunt pariatur. Molestias, dignissimos? Itaque voluptatibus ab voluptates ipsam eaque
+                        atque ad. In amet fugiat aliquam! Dolor, dolorum doloremque.</p>
+                    <button class="btn bg-primary text-white ">Wanna Know Me</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid">
+            <h1 class="text-center text-capitalize pt-3 pb-5">
+                Services
+                <hr class="mx-auto w-25">
+            </h1>
+        </div>
+
+        <div class="row container-fluid mx-auto text-center mb-5">
+            <div class="col-lg-4 col-md-4 col-12 mx-auto mb-4">
+                <div class="card" style="width:400px">
+                    <img class="card-img-top" src="images/img4.jpg" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mx-auto mb-4">
+                <div class="card" style="width:400px">
+                    <img class="card-img-top" src="images/img4.jpg" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mx-auto mb-4">
+                <div class="card" style="width:400px">
+                    <img class="card-img-top" src="images/img4.jpg" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <article class="bg-primary text-center py-5 text-white">
+            <div>
+                <h3 class="display-4">+91 123 456 789</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <button class="btn btn-warning">
+                    Contact Now
+                </button>
+            </div>
+        </article>
+    </section>
+
+    <section>
+        <div class="container-fluid">
+            <h1 class="text-center text-capitalize pt-5 pb-5">
+                Services
+                <hr class="mx-auto w-25">
+            </h1>
+        </div>
+        <div class="row container-fluid mx-auto my-auto">
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <img src="images/img5.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <img src="images/img5.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <img src="images/img5.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <img src="images/img5.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <img src="images/img5.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <img src="images/img5.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary">
+        <article class="container py-5 ">
+            <div class="text-white text-center">
+                <h3 class="display-4">Want To Join</h3>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#myModal">
+                    Join Now
+                </button>
+            </div>
+            
+            <!-- The Modal -->
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Sign Up</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <div class="container">
+                                <h2>Stacked form</h2>
+                                <form action="/action_page.php">
+                                  <div class="form-group">
+                                    <label for="email">Email:</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" autocomplete="off">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="pwd">Password:</label>
+                                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                                  </div>
+                                  <div class="form-group form-check">
+                                    <label class="form-check-label">
+                                      <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                                    </label>
+                                  </div>
+                                  <button type="submit" class="btn btn-primary">Submit</button>
+                                </form>
+                              </div>
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section>
+        <div class="container-fluid">
+            <h1 class="text-center text-capitalize pt-5 pb-5">
+                Contact Us
+                <hr class="mx-auto w-25">
+            </h1>
+        </div>
+        <div class="mx-auto w-50 mb-5">
+            <form action="/action_page.php">
+              
+              <div class="form-group">
+                <label for="pwd">Name:</label>
+                <input type="text" class="form-control" id="pwd" placeholder="Enter Your Name">
+              </div>
+              <div class="form-group">
+                <label for="pwd">Contact No:</label>
+                <input type="number" class="form-control" id="pwd" placeholder="Enter Your Mobile no.">
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" autocomplete="off" placeholder="Enter Your Email">
+              </div>
+              <div class="form-group">
+                 <label for="">Textarea</label>
+                 <textarea cols="2" rows="2" class="form-control"></textarea>
+              </div>
+              <div class="form-group form-check">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" name="remember"> Continue
+                </label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+          
+    </section>
+
+    <footer>
+        <p class="text-center bg-dark text-white pt-3 pb-3 mb-0">@copyright ThapaTechnical.com 2019</p>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
